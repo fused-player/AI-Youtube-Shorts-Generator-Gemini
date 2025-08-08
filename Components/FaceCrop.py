@@ -138,4 +138,3 @@ if __name__ == "__main__":
     combine_videos(input_video_path, output_video_path, final_video_path)
 
 
-

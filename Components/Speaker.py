@@ -34,11 +34,13 @@ def process_audio_frame(audio_data, sample_rate=16000, frame_duration_ms=30):
         yield frame
 
 global Frames
-Frames = [] # [x,y,w,h]
+Frames = []  # [x,y,w,h]
 
 def detect_faces_and_speakers(input_video_path, output_video_path):
-    # Return Frams:
+    # Return Frames:
     global Frames
+    Frames = []  # Reset frames list
+    
     # Extract audio from the video
     extract_audio_from_video(input_video_path, temp_audio_path)
 
@@ -68,45 +70,59 @@ def detect_faces_and_speakers(input_video_path, output_video_path):
         if audio_frame is None:
             break
         is_speaking_audio = voice_activity_detection(audio_frame, sample_rate)
+        
+        # Initialize variables with default values
+        x, y, x1, y1 = 0, 0, w, h  # Default to full frame if no face detected
         MaxDif = 0
         Add = []
+        
+        # First pass: find maximum lip distance
         for i in range(detections.shape[2]):
             confidence = detections[0, 0, i, 2]
             if confidence > 0.3:  # Confidence threshold
                 box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
-                (x, y, x1, y1) = box.astype("int")
-                face_width = x1 - x
-                face_height = y1 - y
-
-                # Draw bounding box
-                cv2.rectangle(frame, (x, y), (x1, y1), (0, 255, 0), 2)
+                (temp_x, temp_y, temp_x1, temp_y1) = box.astype("int")
+                face_width = temp_x1 - temp_x
+                face_height = temp_y1 - temp_y
 
                 # Assuming lips are approximately at the bottom third of the face
-                lip_distance = abs((y + 2 * face_height // 3) - (y1))
-                Add.append([[x, y, x1, y1], lip_distance])
+                lip_distance = abs((temp_y + 2 * face_height // 3) - (temp_y1))
+                Add.append([[temp_x, temp_y, temp_x1, temp_y1], lip_distance])
 
-                MaxDif == max(lip_distance, MaxDif)
+                MaxDif = max(lip_distance, MaxDif)  # Fixed: was == instead of =
+        
+        # Second pass: find the active speaker
+        active_speaker_found = False
         for i in range(detections.shape[2]):
             confidence = detections[0, 0, i, 2]
             if confidence > 0.3:  # Confidence threshold
                 box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
-                (x, y, x1, y1) = box.astype("int")
-                face_width = x1 - x
-                face_height = y1 - y
+                (temp_x, temp_y, temp_x1, temp_y1) = box.astype("int")
+                face_width = temp_x1 - temp_x
+                face_height = temp_y1 - temp_y
 
                 # Draw bounding box
-                cv2.rectangle(frame, (x, y), (x1, y1), (0, 255, 0), 2)
+                cv2.rectangle(frame, (temp_x, temp_y), (temp_x1, temp_y1), (0, 255, 0), 2)
 
                 # Assuming lips are approximately at the bottom third of the face
-                lip_distance = abs((y + 2 * face_height // 3) - (y1))
+                lip_distance = abs((temp_y + 2 * face_height // 3) - (temp_y1))
                 print(lip_distance)
 
                 # Combine visual and audio cues
                 if lip_distance >= MaxDif and is_speaking_audio:  # Adjust the threshold as needed
-                    cv2.putText(frame, "Active Speaker", (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                    cv2.putText(frame, "Active Speaker", (temp_x, temp_y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                
                 if lip_distance >= MaxDif:
+                    # This is the active speaker, store their coordinates
+                    x, y, x1, y1 = temp_x, temp_y, temp_x1, temp_y1
+                    active_speaker_found = True
                     break
 
+        # If no active speaker found but faces detected, use the first face
+        if not active_speaker_found and len(Add) > 0:
+            x, y, x1, y1 = Add[0][0]
+
+        # Append frame data (always executed now)
         Frames.append([x, y, x1, y1])
 
         out.write(frame)
@@ -118,12 +134,15 @@ def detect_faces_and_speakers(input_video_path, output_video_path):
     cap.release()
     out.release()
     cv2.destroyAllWindows()
-    os.remove(temp_audio_path)
-
+    
+    # Clean up temp audio file
+    if os.path.exists(temp_audio_path):
+        os.remove(temp_audio_path)
 
 
 if __name__ == "__main__":
-    detect_faces_and_speakers()
+    detect_faces_and_speakers("input_video.mp4", "output_video.mp4")
     print(Frames)
     print(len(Frames))
-    print(Frames[1:5])
+    if len(Frames) > 5:
+        print(Frames[1:5])

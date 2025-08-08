@@ -1,0 +1,1036 @@
+1
+00:00:00,000 --> 00:00:03,520
+ I've been using the new Chat GPT-5 for the last few days.
+
+2
+00:00:03,520 --> 00:00:07,560
+ This will start today to become your default Chat GPT from now on.
+
+3
+00:00:07,560 --> 00:00:08,560
+ Even if you're a free user.
+
+4
+00:00:08,560 --> 00:00:10,360
+ So, how is it better?
+
+5
+00:00:10,360 --> 00:00:12,840
+ Well, the first thing you'll probably notice is speed.
+
+6
+00:00:12,840 --> 00:00:16,480
+ So this laptop has the previous model, GPT-4 O loaded up.
+
+7
+00:00:16,480 --> 00:00:17,960
+ This has GPT-5.
+
+8
+00:00:17,960 --> 00:00:22,240
+ How many rings does Saturn have?
+
+9
+00:00:22,240 --> 00:00:23,240
+ Go!
+
+10
+00:00:23,240 --> 00:00:25,240
+ Oh my god.
+
+11
+00:00:25,240 --> 00:00:27,600
+ GPT-5 took 3.1 seconds.
+
+12
+00:00:27,600 --> 00:00:28,840
+ This took 6.5.
+
+13
+00:00:28,840 --> 00:00:33,160
+ How many distinct iPhones has Apple made?
+
+14
+00:00:33,160 --> 00:00:34,160
+ Go!
+
+15
+00:00:34,160 --> 00:00:36,160
+ Oh goodness.
+
+16
+00:00:36,160 --> 00:00:37,160
+ Okay.
+
+17
+00:00:37,160 --> 00:00:40,160
+ 8.3 seconds, 11.2 seconds.
+
+18
+00:00:40,160 --> 00:00:46,680
+ How many possible type combinations exist in Pokemon?
+
+19
+00:00:46,680 --> 00:00:47,680
+ Not far off.
+
+20
+00:00:47,680 --> 00:00:49,000
+ Actually, quite far off.
+
+21
+00:00:49,000 --> 00:00:50,920
+ This has massively overcomplicated it.
+
+22
+00:00:50,920 --> 00:00:53,120
+ Five seconds, 11 seconds.
+
+23
+00:00:53,120 --> 00:00:58,280
+ So really, when you're asking light questions like this, GPT-5 is between 30 to 50% faster
+
+24
+00:00:58,280 --> 00:00:59,280
+ than the old model.
+
+25
+00:00:59,280 --> 00:01:03,640
+ But I wouldn't really say that speed was one of the key issues before.
+
+26
+00:01:03,640 --> 00:01:07,160
+ There's actually a much more important change happening this generation.
+
+27
+00:01:07,160 --> 00:01:11,120
+ So if you're a really big user of Chat GPT and you're paying the monthly subscription,
+
+28
+00:01:11,120 --> 00:01:14,520
+ it's actually been really freaking confusing to use.
+
+29
+00:01:14,520 --> 00:01:17,000
+ Because you open up the app and you have options.
+
+30
+00:01:17,000 --> 00:01:23,000
+ You can either pick GPT-4 O, O3, O3 Pro, O4 Mini, O4 Mini High, and each one of these
+
+31
+00:01:23,000 --> 00:01:25,360
+ models is its own AI that you can talk to.
+
+32
+00:01:25,360 --> 00:01:28,680
+ And each one is slightly better than the others at one thing or another.
+
+33
+00:01:28,680 --> 00:01:31,720
+ And there's even more than those when you click here to expand.
+
+34
+00:01:31,720 --> 00:01:36,120
+ How on Earth is any normal consumer supposed to be able to decide which one to use for
+
+35
+00:01:36,120 --> 00:01:37,120
+ which question?
+
+36
+00:01:37,120 --> 00:01:38,120
+ I have always wondered.
+
+37
+00:01:38,120 --> 00:01:42,720
+ If this AI is actually smart enough to be in the top 10% of test takers sitting the most
+
+38
+00:01:42,720 --> 00:01:47,640
+ rolling exams on the planet, why can't it also just know what's the best model for
+
+39
+00:01:47,640 --> 00:01:50,560
+ your specific question and make the choice for you?
+
+40
+00:01:50,560 --> 00:01:53,920
+ Well now, finally, GPT-5 can.
+
+41
+00:01:53,920 --> 00:01:58,680
+ This model effectively brings together all the different capabilities of the previously
+
+42
+00:01:58,680 --> 00:02:02,320
+ separated specialized models into one general model.
+
+43
+00:02:02,320 --> 00:02:06,600
+ Which means, if you ask it a question that requires no thinking, then as we've seen it
+
+44
+00:02:06,600 --> 00:02:10,200
+ will use a very light model that's going to be even faster than the old one.
+
+45
+00:02:10,200 --> 00:02:14,640
+ But it also means that if you then ask a heavier question that would benefit from more
+
+46
+00:02:14,640 --> 00:02:18,760
+ thinking, it can now do that thinking without you needing to specifically select a
+
+47
+00:02:18,760 --> 00:02:20,320
+ mode designed for it.
+
+48
+00:02:20,320 --> 00:02:22,840
+ So let's try something very complex.
+
+49
+00:02:22,840 --> 00:02:28,360
+ Make me a game of Tetris that I can play in Canvas.
+
+50
+00:02:28,360 --> 00:02:30,400
+ This is going to mean I can actually play it on the app.
+
+51
+00:02:30,400 --> 00:02:33,240
+ So, I'm doing this first on the old Chat GPT-4O.
+
+52
+00:02:33,240 --> 00:02:37,200
+ This is the best model that you'd have had access to before without paying.
+
+53
+00:02:37,200 --> 00:02:42,880
+ Still though, easily one of the coolest use cases of an AI, we're approaching 200 lines
+
+54
+00:02:42,880 --> 00:02:44,040
+ of code here.
+
+55
+00:02:44,040 --> 00:02:47,840
+ And okay, that took 57 seconds.
+
+56
+00:02:47,840 --> 00:02:50,040
+ And okay, it's very simple.
+
+57
+00:02:50,040 --> 00:02:54,520
+ This is like the most basic possible form of Tetris, but I suppose at the same time I
+
+58
+00:02:54,520 --> 00:02:57,880
+ have just entered one sentence and generated a game.
+
+59
+00:02:57,880 --> 00:03:03,080
+ So now, I want to try the exact same thing, but using O4 Mini-Hi.
+
+60
+00:03:03,080 --> 00:03:07,480
+ So this in the previous generation is the model that would have been specifically recommended
+
+61
+00:03:07,480 --> 00:03:08,480
+ to you for coding.
+
+62
+00:03:08,480 --> 00:03:11,320
+ And you can only get this by paying the monthly subscription.
+
+63
+00:03:11,320 --> 00:03:12,320
+ Go.
+
+64
+00:03:12,320 --> 00:03:14,960
+ Oh, Blum and L, this is significantly faster.
+
+65
+00:03:14,960 --> 00:03:16,600
+ It's done already.
+
+66
+00:03:16,600 --> 00:03:17,600
+ What?
+
+67
+00:03:17,600 --> 00:03:23,920
+ So it was 14 seconds, and the game is actually almost identical to what Chat GPT-4O produced,
+
+68
+00:03:23,920 --> 00:03:26,080
+ just in quarter of the time.
+
+69
+00:03:26,080 --> 00:03:27,560
+ Okay, let's try it on five.
+
+70
+00:03:27,560 --> 00:03:31,240
+ And the thing that I'm curious to see here is, A, does it decide that this is something
+
+71
+00:03:31,240 --> 00:03:35,640
+ that would benefit from more thinking time and take longer, and if it does, does it then
+
+72
+00:03:35,640 --> 00:03:36,640
+ make it better?
+
+73
+00:03:36,640 --> 00:03:37,640
+ Go.
+
+74
+00:03:37,640 --> 00:03:42,520
+ I'd say it's coding slower than O4 Mini-Hi, but still faster than 4/0.
+
+75
+00:03:42,520 --> 00:03:46,040
+ Okay, that was actually pretty fast too.
+
+76
+00:03:46,040 --> 00:03:50,080
+ 14 seconds, interestingly, more lines of code than both of them.
+
+77
+00:03:50,080 --> 00:03:52,360
+ So it seems like it is making a more complex game.
+
+78
+00:03:52,360 --> 00:03:55,600
+ That is, like, worlds apart.
+
+79
+00:03:55,600 --> 00:03:58,400
+ So it's the same game, but the pieces now have divides in them.
+
+80
+00:03:58,400 --> 00:03:59,400
+ It's giving me a score.
+
+81
+00:03:59,400 --> 00:04:00,680
+ It's giving me a level.
+
+82
+00:04:00,680 --> 00:04:02,440
+ It's showing me the upcoming piece.
+
+83
+00:04:02,440 --> 00:04:03,800
+ There's controls at the bottom.
+
+84
+00:04:03,800 --> 00:04:05,280
+ Like, okay, don't know me wrong.
+
+85
+00:04:05,280 --> 00:04:09,360
+ None of this is something that you couldn't have achieved using previous Chat GPT models,
+
+86
+00:04:09,360 --> 00:04:15,320
+ but it's just the fact that it had the intuition to bake it all in completely unprompted that's
+
+87
+00:04:15,320 --> 00:04:16,320
+ quite impressive.
+
+88
+00:04:16,320 --> 00:04:18,680
+ Yeah, that's a vastly better game of Tetris.
+
+89
+00:04:18,680 --> 00:04:22,160
+ While we're here, though, let's just do something crazy.
+
+90
+00:04:22,160 --> 00:04:27,160
+ So using O4 Mini-Hi, make me a playable game of chess where the pieces are all Pokemon
+
+91
+00:04:27,160 --> 00:04:32,380
+ with sprites from the internet and make it look premium so that the sprites fill up the
+
+92
+00:04:32,380 --> 00:04:33,380
+ squares.
+
+93
+00:04:33,380 --> 00:04:34,380
+ Go.
+
+94
+00:04:34,380 --> 00:04:37,680
+ Err, an error occurred while trying to run your game.
+
+95
+00:04:37,680 --> 00:04:42,720
+ It's very cool that you can ask it to fix its own bugs, but in my experience, there's
+
+96
+00:04:42,720 --> 00:04:46,240
+ a fairly low success rate and...inter.
+
+97
+00:04:46,240 --> 00:04:47,240
+ Loading this time?
+
+98
+00:04:47,240 --> 00:04:48,240
+ Error again.
+
+99
+00:04:48,240 --> 00:04:49,240
+ Come on.
+
+100
+00:04:49,240 --> 00:04:50,240
+ Third time bucket.
+
+101
+00:04:50,240 --> 00:04:51,240
+ Ah, yes, finally.
+
+102
+00:04:51,240 --> 00:04:52,240
+ It doesn't look terrible.
+
+103
+00:04:52,240 --> 00:04:57,560
+ I mean, it has gone out and picked up Pokemon images from the very first games in the 90s.
+
+104
+00:04:57,560 --> 00:04:59,680
+ And also, it doesn't work.
+
+105
+00:04:59,680 --> 00:05:03,000
+ It's giving me an error message every single time I touch a piece.
+
+106
+00:05:03,000 --> 00:05:04,000
+ Same thing in GPT-5.
+
+107
+00:05:04,000 --> 00:05:05,000
+ Go.
+
+108
+00:05:05,000 --> 00:05:06,000
+ Ah, I rate that.
+
+109
+00:05:06,000 --> 00:05:09,400
+ You see, it specifically said, thinking longer for a better answer.
+
+110
+00:05:09,400 --> 00:05:11,520
+ And thinking longer, it absolutely is.
+
+111
+00:05:11,520 --> 00:05:14,280
+ This has taken three times longer than O4.
+
+112
+00:05:14,280 --> 00:05:20,880
+ It's actually a little bit crazy, just to what extent it's going based on my simple command.
+
+113
+00:05:20,880 --> 00:05:27,800
+ You can see it coding in themes and ways to evolve these Pokemon and seemingly an entirely
+
+114
+00:05:27,800 --> 00:05:32,560
+ new rule set that themes chess itself to Pokemon.
+
+115
+00:05:32,560 --> 00:05:34,960
+ I'm actually so curious what it's cooked up here.
+
+116
+00:05:34,960 --> 00:05:35,960
+ Oh wow.
+
+117
+00:05:35,960 --> 00:05:36,960
+ Oh my god.
+
+118
+00:05:36,960 --> 00:05:37,960
+ That is a world apart.
+
+119
+00:05:37,960 --> 00:05:39,480
+ It's the exact same thing at the Tetris.
+
+120
+00:05:39,480 --> 00:05:45,480
+ It's like an implicit understanding of what makes the game look more premium.
+
+121
+00:05:45,480 --> 00:05:48,000
+ So if I click a piece, okay.
+
+122
+00:05:48,000 --> 00:05:53,440
+ It not only works, but it also highlights all of the legally available moves that you can
+
+123
+00:05:53,440 --> 00:05:54,440
+ make with that piece.
+
+124
+00:05:54,440 --> 00:05:56,920
+ It tells you whose turn it is at the top here.
+
+125
+00:05:56,920 --> 00:05:59,440
+ It is actually just leagues ahead of last gen.
+
+126
+00:05:59,440 --> 00:06:04,840
+ Right now, at least GPT-5 is feeling a lot less like a sidekick that's useful, but only
+
+127
+00:06:04,840 --> 00:06:08,640
+ useful in so much as you have the coding knowledge yourself to be able to fix it.
+
+128
+00:06:08,640 --> 00:06:11,360
+ Okay, coding is still obviously a bit of an issue.
+
+129
+00:06:11,360 --> 00:06:16,600
+ The thing that I would say is most useful to the most people for AI is just making sure
+
+130
+00:06:16,600 --> 00:06:17,600
+ that it's right.
+
+131
+00:06:17,600 --> 00:06:20,520
+ Hallucination has been a very real issue for the AI.
+
+132
+00:06:20,520 --> 00:06:25,360
+ This ability of these chatbots to tell you with full confidence and a straight face,
+
+133
+00:06:25,360 --> 00:06:27,560
+ something that is actually completely incorrect.
+
+134
+00:06:27,560 --> 00:06:31,960
+ And let's be honest, that's not an issue that's suddenly going to be fixed in one generational
+
+135
+00:06:31,960 --> 00:06:32,960
+ jump.
+
+136
+00:06:32,960 --> 00:06:33,960
+ But they are saying it's better.
+
+137
+00:06:33,960 --> 00:06:38,540
+ It's a combination of more powerful hardware running this AI, integration of user feedback
+
+138
+00:06:38,540 --> 00:06:43,640
+ from the older models, as well as just better ways to benchmark AI, and therefore better
+
+139
+00:06:43,640 --> 00:06:46,240
+ ways to identify places in which it's lacking.
+
+140
+00:06:46,240 --> 00:06:50,560
+ So put all these things together, it should mean chat GPT-5 doesn't get things wrong as
+
+141
+00:06:50,560 --> 00:06:51,560
+ much.
+
+142
+00:06:51,560 --> 00:06:55,000
+ Let me try one that I know chat GPT used to struggle with, because I was asking it this
+
+143
+00:06:55,000 --> 00:06:56,000
+ two days ago.
+
+144
+00:06:56,000 --> 00:07:03,280
+ Give me ten tech products made by food brands that I can actually buy.
+
+145
+00:07:03,280 --> 00:07:04,600
+ So this is to foro.
+
+146
+00:07:04,600 --> 00:07:05,600
+ What?
+
+147
+00:07:05,600 --> 00:07:08,680
+ McDonald's XT mobile phone, I'm very skeptical.
+
+148
+00:07:08,680 --> 00:07:10,080
+ This is not a thing.
+
+149
+00:07:10,080 --> 00:07:14,600
+ McDonald's did not make a phone with T-Mobile, and then it's got the KFC gaming console, which
+
+150
+00:07:14,600 --> 00:07:15,600
+ you definitely can't buy.
+
+151
+00:07:15,600 --> 00:07:17,040
+ You see what I mean right, though?
+
+152
+00:07:17,040 --> 00:07:20,040
+ It just invents stuff with complete confidence.
+
+153
+00:07:20,040 --> 00:07:21,640
+ Let's see if 5 is any better.
+
+154
+00:07:21,640 --> 00:07:23,160
+ I'm a little skeptical.
+
+155
+00:07:23,160 --> 00:07:24,760
+ Coca-Cola mini fridge.
+
+156
+00:07:24,760 --> 00:07:25,760
+ Okay.
+
+157
+00:07:25,760 --> 00:07:29,080
+ Are you made smart speakers?
+
+158
+00:07:29,080 --> 00:07:30,080
+ Did they do?
+
+159
+00:07:30,080 --> 00:07:31,080
+ No.
+
+160
+00:07:31,080 --> 00:07:35,600
+ But GPT-5 is not doing any better of a job than 4 was.
+
+161
+00:07:35,600 --> 00:07:39,360
+ It is still inventing stuff, so this still does need work.
+
+162
+00:07:39,360 --> 00:07:42,640
+ Here's another one I know that used to really trip up the older AI.
+
+163
+00:07:42,640 --> 00:07:44,440
+ What AI are you?
+
+164
+00:07:44,440 --> 00:07:47,680
+ It just gives me gobble-de-goode.
+
+165
+00:07:47,680 --> 00:07:49,120
+ What about here?
+
+166
+00:07:49,120 --> 00:07:50,120
+ What?
+
+167
+00:07:50,120 --> 00:07:51,120
+ AI is this.
+
+168
+00:07:51,120 --> 00:07:54,720
+ I mean, a much more human-oriented answer.
+
+169
+00:07:54,720 --> 00:07:57,080
+ This is chat GPT with the GPT-5 model.
+
+170
+00:07:57,080 --> 00:08:01,680
+ I specifically asked the question in a slightly obtuse way to see if it could still figure
+
+171
+00:08:01,680 --> 00:08:03,160
+ out my intentions.
+
+172
+00:08:03,160 --> 00:08:04,160
+ And this did.
+
+173
+00:08:04,160 --> 00:08:05,160
+ Right.
+
+174
+00:08:05,160 --> 00:08:09,840
+ For me, GPT's been pretty good, but also pretty inconsistent when it comes to creative
+
+175
+00:08:09,840 --> 00:08:10,840
+ tasks.
+
+176
+00:08:10,840 --> 00:08:14,240
+ So I want to give both of these something that is extremely challenging to pull off.
+
+177
+00:08:14,240 --> 00:08:21,240
+ Make me a YouTube thumbnail for a "Mr Who's the Boss" video titled "I Tested Every Star Wars
+
+178
+00:08:21,240 --> 00:08:23,240
+ Gadget Ever".
+
+179
+00:08:23,240 --> 00:08:24,240
+ If you go.
+
+180
+00:08:24,240 --> 00:08:26,380
+ It's pretty clear why this is such a challenge.
+
+181
+00:08:26,380 --> 00:08:27,540
+ It's got to do my face.
+
+182
+00:08:27,540 --> 00:08:30,800
+ It's got to understand the YouTube thumbnail image size.
+
+183
+00:08:30,800 --> 00:08:35,520
+ It's got to decide what out of all these potential Star Wars gadgets is the most clickable
+
+184
+00:08:35,520 --> 00:08:36,520
+ to an average user.
+
+185
+00:08:36,520 --> 00:08:37,520
+ Right.
+
+186
+00:08:37,520 --> 00:08:38,520
+ So 40 first.
+
+187
+00:08:38,520 --> 00:08:39,520
+ Second one's not bad.
+
+188
+00:08:39,520 --> 00:08:41,960
+ It actually has me holding like the Star Wars blaster and a lightsaber.
+
+189
+00:08:41,960 --> 00:08:42,960
+ That's pretty good.
+
+190
+00:08:42,960 --> 00:08:46,840
+ I'm just quite cursed and I don't think there's a product you can buy.
+
+191
+00:08:46,840 --> 00:08:48,720
+ They're just objects from the universe.
+
+192
+00:08:48,720 --> 00:08:49,720
+ Have you done?
+
+193
+00:08:49,720 --> 00:08:51,560
+ I would actually say that's worse.
+
+194
+00:08:51,560 --> 00:08:53,680
+ It's a little bit less good composition.
+
+195
+00:08:53,680 --> 00:08:57,360
+ The text isn't a Star Wars-y and it's a square.
+
+196
+00:08:57,360 --> 00:08:59,640
+ YouTube thumbnails have to be 16 by 9.
+
+197
+00:08:59,640 --> 00:09:04,280
+ What if you were planning a 30th birthday party and you want it to be Star Wars themed?
+
+198
+00:09:04,280 --> 00:09:13,220
+ How well can these mid-the-invitations contrast to Rick, 7pm to 11pm, Star Wars formal attire?
+
+199
+00:09:13,220 --> 00:09:14,220
+ And go.
+
+200
+00:09:14,220 --> 00:09:20,720
+ Oh, this is taking a real long time.
+
+201
+00:09:20,720 --> 00:09:21,720
+ That's actually so good.
+
+202
+00:09:21,720 --> 00:09:22,720
+ It's fader in a suit.
+
+203
+00:09:22,720 --> 00:09:27,200
+ It's just the right level of sophisticated for a 30-year-old who happens to still be doing
+
+204
+00:09:27,200 --> 00:09:28,200
+ a Star Wars party.
+
+205
+00:09:28,200 --> 00:09:31,840
+ Maybe you could have cut one of these Star Wars logos, but apart from that.
+
+206
+00:09:31,840 --> 00:09:34,600
+ GPT-5 is actually really bland.
+
+207
+00:09:34,600 --> 00:09:39,040
+ It just looks like so much less effort has been put into that than 40.
+
+208
+00:09:39,040 --> 00:09:43,640
+ So it's hard to make a sweeping conclusion based on just a few tests, but one thing's
+
+209
+00:09:43,640 --> 00:09:44,640
+ pretty clear.
+
+210
+00:09:44,640 --> 00:09:48,720
+ GPT-5 is not a step up when it comes to image generation.
+
+211
+00:09:48,720 --> 00:09:55,640
+ But one thing that OpenAI is saying GPT-5 should have for sure is better writing flair, which
+
+212
+00:09:55,640 --> 00:09:58,080
+ is actually one of the things I've noticed lacking in the older models.
+
+213
+00:09:58,080 --> 00:10:02,640
+ They've always felt a little bit wooden, kind of like they're focusing on getting you an
+
+214
+00:10:02,640 --> 00:10:05,960
+ answer, as opposed to actually thinking about the delivery of the answer.
+
+215
+00:10:05,960 --> 00:10:09,280
+ So how about we do the old "How Soon Will I Be Jobless" test?
+
+216
+00:10:09,280 --> 00:10:17,160
+ Write me a 30-second Mr. who's the most tech-fail about the Windows 3, 2, 1, go.
+
+217
+00:10:17,160 --> 00:10:21,000
+ Okay, these are actually quite different looking answers.
+
+218
+00:10:21,000 --> 00:10:26,440
+ Okay, I'll do the 401, and you've got to tell me how close this gets to feeling like I've
+
+219
+00:10:26,440 --> 00:10:27,440
+ made it.
+
+220
+00:10:27,440 --> 00:10:30,200
+ You ever hear the phrase "Great Idea Wrong Decade"?
+
+221
+00:10:30,200 --> 00:10:31,200
+ That was the Windows 4.
+
+222
+00:10:31,200 --> 00:10:36,880
+ In 2010, Microsoft launched a slick, fast, super-stable Phono S that nobody wanted.
+
+223
+00:10:36,880 --> 00:10:37,880
+ Why?
+
+224
+00:10:37,880 --> 00:10:41,840
+ No Instagram, no Snapchat, no YouTube app, even the calculator felt like a cry valve.
+
+225
+00:10:41,840 --> 00:10:44,480
+ They tried paying developers to make apps, didn't work.
+
+226
+00:10:44,480 --> 00:10:48,400
+ They bought Nokia for $7.2 billion to boost hardware sales, still didn't work.
+
+227
+00:10:48,400 --> 00:10:50,200
+ Then, they deleted Nokia.
+
+228
+00:10:50,200 --> 00:10:53,600
+ By 2017, Windows Phone had just 0.1% market share.
+
+229
+00:10:53,600 --> 00:10:57,280
+ Microsoft's official advice switched to Android or iPhone.
+
+230
+00:10:57,280 --> 00:11:00,040
+ To me, that feels about what you'd expect.
+
+231
+00:11:00,040 --> 00:11:04,840
+ I feel like it's not quite done the best job of picking the parts of that story that were
+
+232
+00:11:04,840 --> 00:11:06,800
+ the most important to tell.
+
+233
+00:11:06,800 --> 00:11:11,080
+ Also, the calculator on Windows Phone was actually pretty great, so not at all a reason
+
+234
+00:11:11,080 --> 00:11:12,080
+ it failed.
+
+235
+00:11:12,080 --> 00:11:17,080
+ Another thing about this GPT-5 answer is it not just has the script, but it also has notes
+
+236
+00:11:17,080 --> 00:11:22,120
+ for how to film it, and what b-roll shots we should be using to show each line.
+
+237
+00:11:22,120 --> 00:11:24,200
+ So this is the Windows Phone.
+
+238
+00:11:24,200 --> 00:11:26,480
+ Microsoft's big attempt to take on iOS and Android.
+
+239
+00:11:26,480 --> 00:11:30,160
+ It looked different, felt different, and it failed spectacularly.
+
+240
+00:11:30,160 --> 00:11:35,160
+ Turns out, having no apps in 2012 was like opening a restaurant without food.
+
+241
+00:11:35,160 --> 00:11:38,960
+ Developers didn't bother, customers didn't care, and Microsoft just gave up.
+
+242
+00:11:38,960 --> 00:11:45,040
+ By 2017, the dream was dead, and now the only thing it's good for is being a retro paperweight.
+
+243
+00:11:45,040 --> 00:11:48,760
+ Rest in peace, Windows Phone, you've tiled too close to the sun.
+
+244
+00:11:48,760 --> 00:11:49,760
+ It's good.
+
+245
+00:11:49,760 --> 00:11:54,520
+ I'd say it still needs work, but that's actually a much better starting point, and it's using
+
+246
+00:11:54,520 --> 00:11:57,760
+ analogies in a way that actually makes you think, huh?
+
+247
+00:11:57,760 --> 00:11:58,760
+ Great point.
+
+248
+00:11:58,760 --> 00:12:05,000
+ So, ultimately, GPT-5 is not better at every single thing, but it's still one of those
+
+249
+00:12:05,000 --> 00:12:08,320
+ tech launches that's pretty hard to complain about.
+
+250
+00:12:08,320 --> 00:12:10,680
+ It's clearly a lot better in a lot of ways.
+
+251
+00:12:10,680 --> 00:12:14,760
+ They've integrated all the complexity into one simple model, so they're going to start
+
+252
+00:12:14,760 --> 00:12:18,560
+ to phase out the whole, this model for coding, and this model for reasoning.
+
+253
+00:12:18,560 --> 00:12:24,000
+ The monthly subscription is staying the same price, and also you still get access to GPT-5,
+
+254
+00:12:24,000 --> 00:12:25,320
+ even if you're not paying.
+
+255
+00:12:25,320 --> 00:12:26,520
+ There are a couple of asterisks.
+
+256
+00:12:26,520 --> 00:12:28,640
+ If you're not a paying user, then it is capped.
+
+257
+00:12:28,640 --> 00:12:33,640
+ You'll get, say, 8 to 10 requests per day using the most powerful GPT-5, and it's looking
+
+258
+00:12:33,640 --> 00:12:38,200
+ like when you go beyond that limit, you will then use a less powerful, but still more powerful
+
+259
+00:12:38,200 --> 00:12:40,600
+ than last generation GPT-5 mini.
+
